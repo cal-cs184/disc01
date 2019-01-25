@@ -24,7 +24,7 @@ After this discussion section, you should feel a little more comfortable with
 
 Feel free to ask for more detail on any of these concepts during section.
 
-Some of our great TAs wrote a [C++ primer](https://docs.google.com/document/d/12aFzdekyJv5Ju6aTACT0Pk0ypByxhIKbmtLEEOn8cXM/edit) to help you get familiarized with the language, we highly recommend taking a look at it if you've never used C++ before.
+Some of our great TAs wrote a [C++ primer](https://cs184.eecs.berkeley.edu/sp19/article/11/c-basics) to help you get familiarized with the language, we highly recommend taking a look at it if you've never used C++ before.
 
 A great C++ resource is [cplusplus.com](http://www.cplusplus.com/), which has a helpful C++ [tutorial](http://www.cplusplus.com/doc/tutorial/), as well as good documentation for referencing. For example, you can look up Standard Template Library (STL) classes and their member functions -- you might find their page on the [vector](http://www.cplusplus.com/reference/vector/vector/) class useful today.
 
@@ -137,7 +137,7 @@ it would actually change the (3,1) entries in the kernel vector. However, since 
 
 ## Image class
 
-Before getting started, please take a look at this [guide](https://docs.google.com/document/d/13WlXBfjBfwyds3M7XSiIgy7JdFhLtmikkquNMbEB_-8/edit) that helps clarify the concept of an "image" in the realm of computer graphics and imaging. Fundamentally, an image is a 2D grid of pixels, or color values. In the case of this discussion, each of our pixels consist of *4 different channels - red, green, blue, and alpha*. We sometimes discard the alpha channel, but not in this discussion.
+Before getting started, please take a look at this [guide](https://cs184.eecs.berkeley.edu/sp19/article/7/images-as-data) that helps clarify the concept of an "image" in the realm of computer graphics and imaging. Fundamentally, an image is a 2D grid of pixels, or color values. In the case of this discussion, each of our pixels consist of *4 different channels - red, green, blue, and alpha*. We sometimes discard the alpha channel, but not in this discussion.
 
 With that in mind, now we can move on to the `Image` class. This class is fairly similar to the `Filter` struct except that it supports an additional convolution operator `*`.
 

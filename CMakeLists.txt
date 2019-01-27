@@ -9,9 +9,9 @@ set(CMAKE_CXX_EXTENSIONS OFF)
 set(APPLICATION_SOURCE
     main.cpp
 
-    filter_sol.cpp
+    filter.cpp
     lodepng.cpp
-    image_sol.cpp
+    image.cpp
 
     filter.h
     lodepng.h
